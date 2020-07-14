@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/demo-website/static/media/uport-app-icon.3be74989.svg"
   },
   {
-    "revision": "ef3de7eff7ef8b226eef",
+    "revision": "66a8107a7d5aabb59e52",
     "url": "/demo-website/static/css/main.b0b63eda.chunk.css"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/demo-website/static/media/city-id-icon.03830ca9.svg"
   },
   {
-    "revision": "ef3de7eff7ef8b226eef",
-    "url": "/demo-website/static/js/main.132e9935.chunk.js"
+    "revision": "66a8107a7d5aabb59e52",
+    "url": "/demo-website/static/js/main.3f7dd887.chunk.js"
   },
   {
     "revision": "5f54095e178a888b118a75d9bebac876",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/demo-website/static/media/smiley-face-diploma.12b3afd3.svg"
   },
   {
-    "revision": "afe7043212de1a75c4c188f8e77cb144",
+    "revision": "64d89c605f2dd9d78e202ce937ee291f",
     "url": "/demo-website/index.html"
   }
 ];

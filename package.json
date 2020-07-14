@@ -50,7 +50,7 @@
   "scripts": {
     "setup": "node node_scripts/setup",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp -rf build/* docs/",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy:static": "node node_scripts/deploy_static",

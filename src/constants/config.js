@@ -430,7 +430,8 @@ MUSEUM.requiredServices = [CITY_ID];
 MUSEUM.generatedClaims = [MUSEUM_MEMBERSHIP];
 
 export const SERVICES = {
-  CITY_ID, DIPLOMA, COMPANY, INSURANCE, PHARMACY, TRANSPORT, MUSEUM
+  //CITY_ID, DIPLOMA, COMPANY, INSURANCE, PHARMACY, TRANSPORT, MUSEUM
+  CITY_ID
 };
 
 // Create route config for services

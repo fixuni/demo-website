@@ -5,13 +5,16 @@ import LoadingOverlay from "./shared/LoadingOverlay";
 
 class App extends React.Component {
   componentDidMount() {
+    console.log('componentDidMount()')
     window.addEventListener("hashchange", this.watchHash);
     this.watchHash();
   }
   componentWillUnmount() {
+    console.log('componentWillUnmount()')
     window.removeEventListener("hashchange", this.watchHash);
   }
   watchHash = () => {
+    console.log('watchHash()')
     const { serviceId } = this.props;
     if(!serviceId)
       return;
@@ -29,6 +32,7 @@ class App extends React.Component {
     }
   }
   render() {
+    console.log('App.render()')
     return (<div>
       {this.props.children}
       <LoadingOverlay loading={this.props.isLoading} />

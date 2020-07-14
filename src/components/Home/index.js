@@ -13,6 +13,7 @@ import { SERVICES } from "../../constants/config";
 class Home extends React.Component {
   render() {
     //const { showAppDownload } = this.props;
+    console.log('HOME render()')
     return (<Wrapper>
       <Header />
       <Cards>

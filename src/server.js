@@ -16,7 +16,8 @@ const getCredentials = (serviceId) => {
     throw new Error("Invalid serviceId");
   return new Credentials({
     did: ISSUERS[serviceId].did,
-    privateKey: ISSUERS[serviceId].key,
+    //privateKey: ISSUERS[serviceId].key,
+    privateKey: "0x112233445566778899AABBCCDDEEFF00112233445566778899AABBCCDDEEFF00",
     ethrConfig: {
       rpcUrl: RPC_URL
     }

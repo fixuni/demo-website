@@ -2,7 +2,7 @@
   "name": "did-on-fido-demo-page",
   "version": "1.2.0",
   "private": true,
-  "homepage": "https://did-on-fido.github.io/demo-website",
+  "homepage": "https://did-on-fido.github.io",
   "repository": "https://github.com/did-on-fido/demo-website",
   "devDependencies": {
     "@sentry/webpack-plugin": "^1.6.2",

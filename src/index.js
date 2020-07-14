@@ -15,6 +15,8 @@ import "./i18n";
 
 import "./css/index.css"
 
+console.log("START")
+
 sentryInit({ dsn: SENTRY_DSN });
 
 const sagaMiddleware = createMiddleware();
@@ -22,11 +24,15 @@ const rootReducer = createRootReducer(history);
 const store = configureStore(rootReducer, sagaMiddleware, routerMiddleware(history));
 sagaMiddleware.run(sagas);
 
+console.log("START - rendering")
+
 const render = Component => ReactDOM.render(<Provider store={store}>
   <Component />
 </Provider>, document.getElementById("root"));
 
 render(Routes);
+
+console.log("START - NextApp")
 
 if (module.hot) {
   module.hot.accept('./routes', () => {

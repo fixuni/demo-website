@@ -16,8 +16,8 @@ import getSignerUrl from "./signerUrl";
 // Home Page
 export const home = {
   logo: logo,
-  logoLink: "https://uport.me/",
-  name: "uPortlandia"
+  logoLink: "https://dcentwallet.com/",
+  name: "전자건강보험증"
 };
 
 // Registration Flow

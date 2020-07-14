@@ -52,7 +52,7 @@ export const registration = {
       required: true
     },
     city: {
-      label: "City",
+      label: "스마트건강보험",
       defaultValue: "",
       type: "text",
       required: true
